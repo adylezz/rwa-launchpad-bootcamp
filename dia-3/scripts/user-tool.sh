@@ -6,7 +6,7 @@
 set -euo pipefail
 
 NETWORK="${NETWORK:-testnet}"
-USER_KEY="${USER_KEY:-bob}"
+USER_KEY="${USER_KEY:-tabby}"
 CONTRACT_ID="${CONTRACT_ID:-C...DEPLOYED_LAUNCHPAD_CONTRACT_ID...}"
 RECIPIENT="${RECIPIENT:-G...RECIPIENT_PUBLIC_KEY...}"
 USER_ADDR="$(stellar keys address "$USER_KEY")"
