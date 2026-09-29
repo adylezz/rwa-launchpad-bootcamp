@@ -20,7 +20,7 @@ invoke() {
 do_init() {
   echo "=== initialize (run once after deploy) ==="
   invoke initialize --admin "$ADMIN_ADDR" \
-    --asset '{"name":"RWAToken","total_supply":1000000,"price_per_unit":100,"payment_token":"'"$PAYMENT_TOKEN"'","paused":false}'
+            --asset '{"name":"RWAToken","total_supply":"1000000","price_per_unit":"100","payment_token":"'"$PAYMENT_TOKEN"'","paused":false}'
 }
 do_whitelist() {
   echo "=== set_whitelist ==="
